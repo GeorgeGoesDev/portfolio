@@ -1,0 +1,64 @@
+.container {
+
+    margin: 0 auto;
+    margin-top: 5em;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    perspective: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 6em;
+}
+
+.carousel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.item {
+    display: block;
+    position: absolute;
+    background: #1F2625;
+    width: inherit;
+    line-height: 2em;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 5px rgb(255, 255, 255);
+
+}
+
+
+
+
+
+.next,
+.prev {
+    color: #ffffff;
+    cursor: pointer;
+    filter: invert();
+    height: 0.5em;
+    z-index: 1000;
+    font-size: 6em;
+
+}
+
+
+.next:hover,
+.prev:hover {
+    filter: drop-shadow(0px 0px 10px #ffffff);
+
+}
