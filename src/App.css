@@ -5,10 +5,7 @@
   user-select: none;
 }
 
-.top-menu {
-  visibility: hidden;
 
-}
 
 :root {
   --primary: #ffffff;
@@ -44,11 +41,7 @@ video {
 
 @media screen and (min-width: 1024px) {
 
-  .top-menu {
-    visibility: visible;
-  }
-
   .side-menu {
-    visibility: hidden;
+    display: none;
   }
 }

@@ -22,7 +22,7 @@
     bottom: 4vh;
     right: 4vw;
     font-family: monospace;
-    font-size: 2vw;
+    font-size: 1rem;
 }
 
 @keyframes typing {
@@ -40,5 +40,9 @@
 @media screen and (min-width: 1000px) {
     .typing {
         font-size: 4rem;
+    }
+
+    .name {
+        font-size: 2rem;
     }
 }
