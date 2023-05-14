@@ -1,3 +1,60 @@
 .whole-project {
-    color: var(--primary)
+    color: var(--primary);
+    background-color: black;
+    z-index: 3000;
+    height: 100%;
+    width: fit-content;
+    transition: transform 0.1s linear;
+    padding: 0.5em;
+    border: 2px solid rgba(70, 178, 84, 1);
+
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+
+a {
+    z-index: 3000;
+    text-decoration: none;
+}
+
+
+.project-image {
+    width: 100%;
+}
+
+.projects-container {
+
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 3.33%;
+    margin-top: 4rem;
+}
+
+@media screen and (width < 1024px) {
+
+    .projects-container {
+        grid-template-columns: 1fr;
+        row-gap: 3.33%;
+
+    }
+
+    .whole-project:hover {
+
+        scale: 1.02;
+    }
+
+    .whole-project {
+        margin-top: 2em;
+
+    }
+}
+
+@media screen and (width >=1024px) {
+
+    .whole-project:hover {
+        transform: translateY(-10px);
+    }
+
 }

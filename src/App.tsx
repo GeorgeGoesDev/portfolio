@@ -8,6 +8,7 @@ import SideBar from './Components/SideBar/SideBar';
 import Projects from './Components/Projects/Projects';
 import bg from './assets/flight.mp4';
 import Skills from './Components/Skills/Skills';
+import Contact from './Components/Contact/Contact';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Skills" element={<Skills />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/ABOUT" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
 
       </Routes>
     </div>

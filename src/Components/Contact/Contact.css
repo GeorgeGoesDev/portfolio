@@ -1,0 +1,116 @@
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.error-message {
+    color: red;
+    font-size: larger;
+    font-weight: 700;
+    text-shadow: #00942a;
+
+}
+
+
+
+.solid-lines {
+    background: repeating-linear-gradient(rgba(55, 66, 71, 0.5),
+            rgba(55, 66, 71, 0.01) 20px,
+            rgba(100, 255, 121, 0.01) 20px,
+            rgba(100, 255, 121, 0.01) 25px);
+    background-size: 100% 50px;
+    animation: move-background 3s linear infinite;
+}
+
+.contact-form {
+
+    border: 2px solid rgba(70, 178, 84, 0.2);
+    box-shadow: 0 0 10px 4px rgb(100, 255, 121);
+    border-radius: 1rem;
+    width: fit-content;
+    justify-self: center;
+    padding: 2rem;
+    z-index: 1000;
+
+
+
+}
+
+.contact-form-container {
+    margin-top: 5rem;
+    display: grid;
+    place-items: center;
+}
+
+input,
+textarea {
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    resize: none;
+}
+
+#input-submit {
+    color: white;
+    background: #455e5a;
+    border: 1px solid green;
+    cursor: pointer;
+
+}
+
+#input-submit:hover {
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+    background: #00942a;
+}
+
+textarea {
+    height: 126px;
+}
+
+.half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+}
+
+.right {
+    width: 50%;
+}
+
+.left {
+    margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+    .half {
+        width: 100%;
+        float: none;
+        margin-bottom: 0;
+    }
+}
+
+.cf:before,
+.cf:after {
+    content: ' ';
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+@keyframes move-background {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 50px;
+    }
+}

@@ -6,7 +6,7 @@ const Skills = () => {
 
     const frontend = ['Javascript', 'Typescript', 'React', 'HTML', 'CSS',];
     const backend = ['Node', 'Express', 'MongoDB', 'PostgreSQL'];
-    const other = ['Firebase', 'Mocha', 'Jest'];
+    const other = ['Firebase', 'Git', 'Mocha', 'Jest'];
 
     return (
         <div className='skills-container'>

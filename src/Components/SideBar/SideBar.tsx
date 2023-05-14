@@ -22,6 +22,7 @@ const SideBar = () => {
                     <StripeButton text="Projects" />
                     <StripeButton text="Skills" />
                     <StripeButton text="About" />
+                    <StripeButton text="Contact" />
                 </nav>
             </aside>
         </div>

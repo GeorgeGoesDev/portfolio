@@ -1,6 +1,7 @@
 import React from 'react'
 import Globe from '../Globe/Globe'
 import './Home.css'
+import Social from '../Social/Social'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
                     Welcome to my world...
                 </div>
             </div>
+            <Social />
             <Globe />
             <div className='name'>George Koutanis</div>
         </div>

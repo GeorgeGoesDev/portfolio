@@ -9,6 +9,7 @@ const Menu = () => {
             <StripeButton text="Projects" />
             <StripeButton text="Skills" />
             <StripeButton text="About" />
+            <StripeButton text="Contact" />
 
         </div>
     )
