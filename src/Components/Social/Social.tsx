@@ -6,6 +6,9 @@ const linkedinIcon = require('../../assets/LI-In-Bug.png')
 const githubIcon = require('../../assets/github-mark-white.png')
 const cvIcon = require('../../assets/cv-icon.png')
 const Social = () => {
+
+    const pdfFile = require('../../assets/George_Koutanis_resume.pdf')
+
     return (
 
         <div>
@@ -24,7 +27,7 @@ const Social = () => {
                     </a>
                 </li>
                 <li className="">
-                    <a href="assets/George_Koutanis_resume.pdf" download="George_Koutanis_resume.pdf">
+                    <a href={pdfFile} download="George_Koutanis_resume.pdf">
                         <img className='social-img invert' src={cvIcon} alt='CV Icon' />
                     </a>
                 </li>
