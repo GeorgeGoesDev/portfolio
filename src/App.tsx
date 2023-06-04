@@ -9,6 +9,7 @@ import Projects from './Components/Projects/Projects';
 import bg from './assets/flight.mp4';
 import Skills from './Components/Skills/Skills';
 import Contact from './Components/Contact/Contact';
+import Chatbot from './Components/Chatbot/Chatbot';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       </video>
       <SideBar />
       <Menu />
+      <Chatbot />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Home" element={<Home />} />
